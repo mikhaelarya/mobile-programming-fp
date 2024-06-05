@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870779011541",
+    "project_id": "chat-is-this-real",
+    "storage_bucket": "chat-is-this-real.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870779011541:android:b2f3c7b5e0f02832eb3d5c",
+        "android_client_info": {
+          "package_name": "com.example.chat_is_this_real_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoYhJNeP3RkZyKUDsel5HVGSySvTvE0aI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
