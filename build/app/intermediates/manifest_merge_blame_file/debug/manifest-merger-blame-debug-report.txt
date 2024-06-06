@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\moham\Desktop\FLAP\chat_is_this_real_app\android\app\src\debug\AndroidManifest.xml:7:5-66
-15-->C:\Users\moham\Desktop\FLAP\chat_is_this_real_app\android\app\src\debug\AndroidManifest.xml:7:22-64
+15-->C:\Users\moham\Desktop\FLAP\mobile_programming_fp\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\moham\Desktop\FLAP\mobile_programming_fp\android\app\src\debug\AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 16-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\moham\.gradle\caches\transforms-3\6ef0c7d567edcb08c58516059d9a0f59\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
 16-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\moham\.gradle\caches\transforms-3\6ef0c7d567edcb08c58516059d9a0f59\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
@@ -63,25 +63,25 @@
 56            android:value="2" />
 57
 58        <service
-58-->[:firebase_auth] C:\Users\moham\Desktop\FLAP\chat_is_this_real_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+58-->[:firebase_auth] C:\Users\moham\Desktop\FLAP\mobile_programming_fp\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 59            android:name="com.google.firebase.components.ComponentDiscoveryService"
-59-->[:firebase_auth] C:\Users\moham\Desktop\FLAP\chat_is_this_real_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+59-->[:firebase_auth] C:\Users\moham\Desktop\FLAP\mobile_programming_fp\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
 60            android:directBootAware="true"
 60-->[com.google.firebase:firebase-common:20.4.3] C:\Users\moham\.gradle\caches\transforms-3\fa31260593e53d57b6fb3595c608a3d8\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:32:13-43
 61            android:exported="false" >
 61-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\moham\.gradle\caches\transforms-3\6ef0c7d567edcb08c58516059d9a0f59\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:68:13-37
 62            <meta-data
-62-->[:firebase_auth] C:\Users\moham\Desktop\FLAP\chat_is_this_real_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+62-->[:firebase_auth] C:\Users\moham\Desktop\FLAP\mobile_programming_fp\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-63-->[:firebase_auth] C:\Users\moham\Desktop\FLAP\chat_is_this_real_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+63-->[:firebase_auth] C:\Users\moham\Desktop\FLAP\mobile_programming_fp\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 64                android:value="com.google.firebase.components.ComponentRegistrar" />
-64-->[:firebase_auth] C:\Users\moham\Desktop\FLAP\chat_is_this_real_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+64-->[:firebase_auth] C:\Users\moham\Desktop\FLAP\mobile_programming_fp\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 65            <meta-data
-65-->[:firebase_core] C:\Users\moham\Desktop\FLAP\chat_is_this_real_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+65-->[:firebase_core] C:\Users\moham\Desktop\FLAP\mobile_programming_fp\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-66-->[:firebase_core] C:\Users\moham\Desktop\FLAP\chat_is_this_real_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+66-->[:firebase_core] C:\Users\moham\Desktop\FLAP\mobile_programming_fp\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 67                android:value="com.google.firebase.components.ComponentRegistrar" />
-67-->[:firebase_core] C:\Users\moham\Desktop\FLAP\chat_is_this_real_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+67-->[:firebase_core] C:\Users\moham\Desktop\FLAP\mobile_programming_fp\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 68            <meta-data
 68-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\moham\.gradle\caches\transforms-3\6ef0c7d567edcb08c58516059d9a0f59\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
 69                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
