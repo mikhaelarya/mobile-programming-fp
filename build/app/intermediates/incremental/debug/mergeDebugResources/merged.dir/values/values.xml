@@ -127,12 +127,12 @@
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
-    <string name="gcm_defaultSenderId" translatable="false">870779011541</string>
-    <string name="google_api_key" translatable="false">AIzaSyBoYhJNeP3RkZyKUDsel5HVGSySvTvE0aI</string>
-    <string name="google_app_id" translatable="false">1:870779011541:android:b2f3c7b5e0f02832eb3d5c</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBoYhJNeP3RkZyKUDsel5HVGSySvTvE0aI</string>
-    <string name="google_storage_bucket" translatable="false">chat-is-this-real.appspot.com</string>
-    <string name="project_id" translatable="false">chat-is-this-real</string>
+    <string name="gcm_defaultSenderId" translatable="false">583698881781</string>
+    <string name="google_api_key" translatable="false">AIzaSyDC2R8TIg-maE5sMMonWesg2CMYhQA6xKY</string>
+    <string name="google_app_id" translatable="false">1:583698881781:android:783fb8b2e1a84f130439bc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDC2R8TIg-maE5sMMonWesg2CMYhQA6xKY</string>
+    <string name="google_storage_bucket" translatable="false">data-fp.appspot.com</string>
+    <string name="project_id" translatable="false">data-fp</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
         
