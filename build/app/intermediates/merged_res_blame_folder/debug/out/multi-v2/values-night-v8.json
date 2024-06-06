@@ -4,7 +4,7 @@
             "outputFile": "com.example.chat_is_this_real_app-mergeDebugResources-14:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\moham\\Desktop\\FLAP\\chat_is_this_real_app\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\moham\\Desktop\\FLAP\\mobile_programming_fp\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

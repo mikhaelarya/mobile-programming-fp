@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:mobile_programming_fp/auth/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:mobile_programming_fp/components/my_textfield.dart';
@@ -27,8 +29,8 @@ class LoginPage extends StatelessWidget {
       showDialog(
           context: context,
           builder: (context) => AlertDialog(
-            title: Text(e.toString()),
-          ));
+                title: Text(e.toString()),
+              ));
     }
   }
 
@@ -93,7 +95,7 @@ class LoginPage extends StatelessWidget {
                 Text(
                   "Not a member? ",
                   style:
-                  TextStyle(color: Theme.of(context).colorScheme.primary),
+                      TextStyle(color: Theme.of(context).colorScheme.primary),
                 ),
                 GestureDetector(
                   onTap: onTap,
