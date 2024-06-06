@@ -28,15 +28,15 @@ class RegisterPage extends StatelessWidget {
         showDialog(
             context: context,
             builder: (context) => AlertDialog(
-              title: Text(e.toString()),
-            ));
+                  title: Text(e.toString()),
+                ));
       }
     } else {
       showDialog(
           context: context,
           builder: (context) => const AlertDialog(
-            title: Text("Your password does not match."),
-          ));
+                title: Text("Your password does not match."),
+              ));
     }
   }
 
@@ -110,7 +110,7 @@ class RegisterPage extends StatelessWidget {
                 Text(
                   "Already have an account? ",
                   style:
-                  TextStyle(color: Theme.of(context).colorScheme.primary),
+                      TextStyle(color: Theme.of(context).colorScheme.primary),
                 ),
                 GestureDetector(
                   onTap: onTap,
