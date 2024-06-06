@@ -1,7 +1,7 @@
-import 'package:mobile-programming-fp/auth/auth_service.dart';
+import 'package:mobile_programming_fp/auth/auth_service.dart';
 import 'package:flutter/material.dart';
-import 'package:mobile-programming-fp/components/my_textfield.dart';
-import 'package:mobile-programming-fp/components/my_button.dart';
+import 'package:mobile_programming_fp/components/my_textfield.dart';
+import 'package:mobile_programming_fp/components/my_button.dart';
 
 class LoginPage extends StatelessWidget {
   // Email + Password Controllers
