@@ -23,7 +23,7 @@ class ChatBubble extends StatelessWidget {
         Provider.of<ThemeProvider>(context, listen: false).isDarkMode;
 
     return GestureDetector(
-      onLongPress: () => _showContextMenu(context),
+      onLongPress: isCurrentUser ? () => _showContextMenu(context) : () => 1,
       child: Container(
         decoration: BoxDecoration(
           color: isCurrentUser
