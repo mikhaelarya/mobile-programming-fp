@@ -1,34 +1,16 @@
-# mobile-programming-fp
-final project
+# mobile_programming_fp
 
-Mikhael Aryasatya Nugraha - 5025211062
-<br />
-Erlangga Wahyu Utomo - 5025201118
-<br />
-Mohammed Fachry Dwi Handoko - 5025201159
-<br />
+A new Flutter project.
 
-<h2> Login </h2>
-<img src="https://raw.githubusercontent.com/mikhaelarya/mobile-programming-fp/main/image_captures/login.png" alt="" />
+## Getting Started
 
-<br />
+This project is a starting point for a Flutter application.
 
-<h2> Register </h2>
-![console_Chat-is-this-Real-Auth](https://raw.githubusercontent.com/mikhaelarya/mobile-programming-fp/main/image_captures/register.png)
+A few resources to get you started if this is your first Flutter project:
 
-<br />
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-<h2> Home </h2>
-![console_Chat-is-this-Real-Auth](https://raw.githubusercontent.com/mikhaelarya/mobile-programming-fp/main/image_captures/home_page.png)
-
-<br />
-
-<h2> Firebase Console </h2>
-![console_Chat-is-this-Real-Auth](https://raw.githubusercontent.com/mikhaelarya/mobile-programming-fp/main/image_captures/console_Chat-is-this-Real-Auth.png)
-
-<br />
-
-<h2> Registered Users </h2>
-![users_Chat-is-this-Real-Auth](https://raw.githubusercontent.com/mikhaelarya/mobile-programming-fp/main/image_captures/users_Chat-is-this-Real-Auth.png)
-
-<br />
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

@@ -1,15 +1,19 @@
-//import 'package:mobile_programming_fp/auth/auth_gate.dart';
-//import 'package:mobile_programming_fp/firebase_options.dart';
+import 'package:mobile_programming_fp/services/auth/auth_gate.dart';
+import 'package:mobile_programming_fp/firebase_options.dart';
+import 'package:mobile_programming_fp/themes/theme_provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'themes/light_mode.dart';
-import 'firebase_options.dart';
-
+import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => ThemeProvider(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -19,8 +23,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Fp',
-      theme: lightMode,
+      title: 'Chat, is this Real?',
+      theme: Provider.of<ThemeProvider>(context).themeData,
       home: const AuthGate(),
     );
   }

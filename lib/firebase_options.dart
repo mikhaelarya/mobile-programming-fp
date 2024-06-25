@@ -50,20 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDC2R8TIg-maE5sMMonWesg2CMYhQA6xKY',
-    appId: '1:583698881781:android:783fb8b2e1a84f130439bc',
-    messagingSenderId: '583698881781',
-    projectId: 'data-fp',
-    storageBucket: 'data-fp.appspot.com',
+    apiKey: 'AIzaSyBoYhJNeP3RkZyKUDsel5HVGSySvTvE0aI',
+    appId: '1:870779011541:android:b2f3c7b5e0f02832eb3d5c',
+    messagingSenderId: '870779011541',
+    projectId: 'chat-is-this-real',
+    storageBucket: 'chat-is-this-real.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCdsC219g0QfQhIQ3wGcxgUqSC4wkrXJ9M',
-    appId: '1:583698881781:ios:592a1084828744b70439bc',
-    messagingSenderId: '583698881781',
-    projectId: 'data-fp',
-    storageBucket: 'data-fp.appspot.com',
+    apiKey: 'AIzaSyBuEiv_COLN4ip-nNmNGKlsiZDLvXGToBQ',
+    appId: '1:870779011541:ios:3021c7ef7f3ccc43eb3d5c',
+    messagingSenderId: '870779011541',
+    projectId: 'chat-is-this-real',
+    storageBucket: 'chat-is-this-real.appspot.com',
     iosBundleId: 'com.example.chatIsThisRealApp',
   );
-
 }

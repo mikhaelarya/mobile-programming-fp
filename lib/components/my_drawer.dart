@@ -1,3 +1,4 @@
+import 'package:mobile_programming_fp/pages/profle_page.dart';
 import 'package:mobile_programming_fp/services/auth/auth_service.dart';
 import 'package:mobile_programming_fp/pages/settings_page.dart';
 import 'package:flutter/material.dart';
@@ -39,6 +40,25 @@ class MyDrawer extends StatelessWidget {
                   onTap: () {
                     // Pop the drawer
                     Navigator.pop(context);
+                  },
+                ),
+              ),
+
+              // Profile
+              Padding(
+                padding: const EdgeInsets.only(left: 25.0),
+                child: ListTile(
+                  title: const Text("P R O F I L E"),
+                  leading: const Icon(Icons.person_outlined),
+                  onTap: () {
+                    // Pop the drawer
+                    Navigator.pop(context);
+                    // Navigate to Settings
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const ProfilePage(),
+                        ));
                   },
                 ),
               ),

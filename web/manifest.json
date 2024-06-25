@@ -1,6 +1,6 @@
 {
-    "name": "chat_is_this_real_app",
-    "short_name": "chat_is_this_real_app",
+    "name": "mobile_programming_fp",
+    "short_name": "mobile_programming_fp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

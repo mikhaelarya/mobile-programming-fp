@@ -1,9 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.chat_is_this_real_app">
+    package="com.example.mobile_programming_fp">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
    <application
-        android:label="chat_is_this_real_app"
-        android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:label="mobile_programming_fp"
+        android:icon="@mipmap/ic_launcher"
+        android:enableOnBackInvokedCallback="true">
         <activity
             android:name=".MainActivity"
             android:exported="true"

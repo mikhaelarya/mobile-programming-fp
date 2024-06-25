@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "583698881781",
-    "project_id": "data-fp",
-    "storage_bucket": "data-fp.appspot.com"
+    "project_number": "870779011541",
+    "project_id": "chat-is-this-real",
+    "storage_bucket": "chat-is-this-real.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:583698881781:android:783fb8b2e1a84f130439bc",
+        "mobilesdk_app_id": "1:870779011541:android:b2f3c7b5e0f02832eb3d5c",
         "android_client_info": {
-          "package_name": "com.example.chat_is_this_real_app"
+          "package_name": "com.example.mobile_programming_fp"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDC2R8TIg-maE5sMMonWesg2CMYhQA6xKY"
+          "current_key": "AIzaSyBoYhJNeP3RkZyKUDsel5HVGSySvTvE0aI"
         }
       ],
       "services": {

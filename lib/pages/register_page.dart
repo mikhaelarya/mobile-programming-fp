@@ -1,4 +1,6 @@
-import 'package:mobile_programming_fp/auth/auth_service.dart';
+// ignore_for_file: no_leading_underscores_for_local_identifiers
+
+import 'package:mobile_programming_fp/services/auth/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:mobile_programming_fp/components/my_textfield.dart';
 import 'package:mobile_programming_fp/components/my_button.dart';
@@ -26,17 +28,19 @@ class RegisterPage extends StatelessWidget {
             _emailController.text, _pwController.text);
       } catch (e) {
         showDialog(
-            context: context,
-            builder: (context) => AlertDialog(
-              title: Text(e.toString()),
-            ));
+          context: context,
+          builder: (context) => AlertDialog(
+            title: Text(e.toString()),
+          ),
+        );
       }
     } else {
       showDialog(
-          context: context,
-          builder: (context) => const AlertDialog(
-            title: Text("Your password does not match."),
-          ));
+        context: context,
+        builder: (context) => const AlertDialog(
+          title: Text("Your password does not match."),
+        ),
+      );
     }
   }
 
@@ -73,6 +77,7 @@ class RegisterPage extends StatelessWidget {
               hintText: "Email",
               obscureText: false,
               controller: _emailController,
+              focusNode: FocusNode(),
             ),
 
             const SizedBox(height: 10),
@@ -82,6 +87,7 @@ class RegisterPage extends StatelessWidget {
               hintText: "Password",
               obscureText: true,
               controller: _pwController,
+              focusNode: FocusNode(),
             ),
 
             const SizedBox(height: 10),
@@ -91,6 +97,7 @@ class RegisterPage extends StatelessWidget {
               hintText: "Confirm Password",
               obscureText: true,
               controller: _confirmPwController,
+              focusNode: FocusNode(),
             ),
 
             const SizedBox(height: 25),
@@ -110,15 +117,16 @@ class RegisterPage extends StatelessWidget {
                 Text(
                   "Already have an account? ",
                   style:
-                  TextStyle(color: Theme.of(context).colorScheme.primary),
+                      TextStyle(color: Theme.of(context).colorScheme.primary),
                 ),
                 GestureDetector(
                   onTap: onTap,
                   child: Text(
                     "Login now.",
                     style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Theme.of(context).colorScheme.inversePrimary),
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).colorScheme.inversePrimary,
+                    ),
                   ),
                 ),
               ],

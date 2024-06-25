@@ -21,6 +21,12 @@
   <key>CFBundleVersion</key>
   <string>1.0</string>
   <key>MinimumOSVersion</key>
-  <string>12.0</string>
+  <string>11.0</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Used to access photos in your gallery</string>
+  <key>NSCameraUsageDescription</key>
+  <string>Used to take pictures</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Used to record videos with sound</string>
 </dict>
 </plist>

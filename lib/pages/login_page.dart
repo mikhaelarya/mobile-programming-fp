@@ -1,4 +1,6 @@
-import 'package:mobile_programming_fp/auth/auth_service.dart';
+// ignore_for_file: use_build_context_synchronously
+
+import 'package:mobile_programming_fp/services/auth/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:mobile_programming_fp/components/my_textfield.dart';
 import 'package:mobile_programming_fp/components/my_button.dart';
@@ -22,13 +24,18 @@ class LoginPage extends StatelessWidget {
     // try log in, catch errors
     try {
       await authService.signInWithEmailPassword(
-          _emailController.text, _pwController.text);
+        _emailController.text,
+        _pwController.text,
+      );
     } catch (e) {
       showDialog(
-          context: context,
-          builder: (context) => AlertDialog(
-            title: Text(e.toString()),
-          ));
+        context: context,
+        builder: (context) => AlertDialog(
+          title: Text(
+            e.toString(),
+          ),
+        ),
+      );
     }
   }
 
@@ -65,6 +72,7 @@ class LoginPage extends StatelessWidget {
               hintText: "Email",
               obscureText: false,
               controller: _emailController,
+              focusNode: FocusNode(),
             ),
 
             const SizedBox(height: 10),
@@ -74,6 +82,7 @@ class LoginPage extends StatelessWidget {
               hintText: "Password",
               obscureText: true,
               controller: _pwController,
+              focusNode: FocusNode(),
             ),
 
             const SizedBox(height: 25),
@@ -92,16 +101,18 @@ class LoginPage extends StatelessWidget {
               children: [
                 Text(
                   "Not a member? ",
-                  style:
-                  TextStyle(color: Theme.of(context).colorScheme.primary),
+                  style: TextStyle(
+                    color: Theme.of(context).colorScheme.primary,
+                  ),
                 ),
                 GestureDetector(
                   onTap: onTap,
                   child: Text(
                     "Register now.",
                     style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Theme.of(context).colorScheme.inversePrimary),
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).colorScheme.inversePrimary,
+                    ),
                   ),
                 ),
               ],
