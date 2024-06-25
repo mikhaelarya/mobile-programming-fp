@@ -82,8 +82,6 @@ class ChatService {
         .doc(messageId)
         .update({
       'message': newMessage,
-      'timestamp':
-          Timestamp.now(), // Update the timestamp to reflect the edit time
     });
   }
 
