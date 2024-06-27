@@ -44,6 +44,11 @@ Mohammed Fachry Dwi Handoko - 5025201159
 
 <br />
 
+<h2> Profile - CRUD </h2>
+<img src="https://raw.githubusercontent.com/mikhaelarya/mobile-programming-fp/main-2/screenshots/PFP - Dark.png" alt="" />
+
+<br />
+
 <h2> Settings </h2>
 <img src="https://raw.githubusercontent.com/mikhaelarya/mobile-programming-fp/main-2/screenshots/Settings - Light.png" alt="" />
 <img src="https://raw.githubusercontent.com/mikhaelarya/mobile-programming-fp/main-2/screenshots/Settings - Dark.png" alt="" />
