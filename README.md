@@ -1,5 +1,7 @@
 # mobile-programming-fp
-final project
+Final Project
+
+<br />
 
 Mikhael Aryasatya Nugraha - 5025211062
 <br />
@@ -71,6 +73,6 @@ Mohammed Fachry Dwi Handoko - 5025201159
 <br />
 
 <h2> Firebase Storage </h2>
-<img src="https://raw.githubusercontent.com/mikhaelarya/mobile-programming-fp/main-2/screenshots/FP - DB" alt="" />
+<img src="https://raw.githubusercontent.com/mikhaelarya/mobile-programming-fp/main-2/screenshots/FP - DB.png" alt="" />
 
 <br />
